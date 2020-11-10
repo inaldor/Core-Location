@@ -15,6 +15,9 @@
 		00D36EF1214DCB9F007D6E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D36EF0214DCB9F007D6E0C /* main.m */; };
 		00D36EFB214DCB9F007D6E0C /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D36EFA214DCB9F007D6E0C /* CoreDataTests.m */; };
 		00D36F06214DCB9F007D6E0C /* CoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D36F05214DCB9F007D6E0C /* CoreDataUITests.m */; };
+		00D36F1C214DD090007D6E0C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D36F1B214DD090007D6E0C /* CoreLocation.framework */; };
+		00D36F1D214DD0A1007D6E0C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D36F1B214DD090007D6E0C /* CoreLocation.framework */; };
+		00D36F1E214DD0A9007D6E0C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D36F1B214DD090007D6E0C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		00D36F01214DCB9F007D6E0C /* CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D36F05214DCB9F007D6E0C /* CoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataUITests.m; sourceTree = "<group>"; };
 		00D36F07214DCB9F007D6E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D36F14214DCBBD007D6E0C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		00D36F1B214DD090007D6E0C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D36F1C214DD090007D6E0C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D36F1D214DD0A1007D6E0C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D36F1E214DD0A9007D6E0C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,7 @@
 				00D36EF9214DCB9F007D6E0C /* CoreDataTests */,
 				00D36F04214DCB9F007D6E0C /* CoreDataUITests */,
 				00D36EDF214DCB9D007D6E0C /* Products */,
+				00D36F13214DCBBD007D6E0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +139,15 @@
 				00D36F07214DCB9F007D6E0C /* Info.plist */,
 			);
 			path = CoreDataUITests;
+			sourceTree = "<group>";
+		};
+		00D36F13214DCBBD007D6E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00D36F1B214DD090007D6E0C /* CoreLocation.framework */,
+				00D36F14214DCBBD007D6E0C /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
